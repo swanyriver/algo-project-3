@@ -8,16 +8,17 @@ min 10 p1w1 + 15 p1w2 +
 14 w3r4 + 12 w3r5 + 12 w3r6 + 6 w3r7
 
 st
-
+	!supply constraints
 	p1w1 + p1w2 <=150 
 	p2w1 + p2w2 <=450 
 	p3w1 + p3w2 + p3w3 <=250
 	p4w2 + p4w3 <=150
 
 	
-	w1r1 + w1r2 + w1r3 + w1r4 = p1w1 + p2w1 + p3w1
+	w1r1 + w1r2 + w1r3 + w1r4 - p1w1 - p2w1 - p3w1 = 0
 
 
+	!demand constraints
 	w1r1 >= 100
 	w1r2 >= 150
 	w1r3 + w2r3 >= 100
@@ -27,4 +28,3 @@ st
 	w3r7 >= 100
 
 end
-
