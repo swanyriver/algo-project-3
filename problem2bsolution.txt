@@ -1,0 +1,48 @@
+  Global optimal solution found.
+  Objective value:                              1.554133
+  Infeasibilities:                              0.000000
+  Total solver iterations:                             3
+  Elapsed runtime seconds:                          0.06
+
+  Model Class:                                        LP
+
+  Total variables:                      8
+  Nonlinear variables:                  0
+  Integer variables:                    0
+
+  Total constraints:                   16
+  Nonlinear constraints:                0
+
+  Total nonzeros:                      69
+  Nonlinear nonzeros:                   0
+
+
+
+                                Variable           Value        Reduced Cost
+                                       T        0.000000            1.002081
+                                       L        0.000000           0.4029122
+                                       S       0.8322983            0.000000
+                                       C        0.000000           0.4869142
+                                      SS       0.9608330E-01        0.000000
+                                      ST        0.000000           0.4056086
+                                      CP        1.152364            0.000000
+                                       O        0.000000            7.281258
+
+                                     Row    Slack or Surplus      Dual Price
+                                       1        1.554133           -1.000000
+                                 PROTIEN        0.000000          -0.1312607
+                              MT2GRAMFAT        6.000000            0.000000
+                              LT8GRAMFAT        0.000000           0.5184714E-01
+                          CARBOHYDRAYTES        31.57633            0.000000
+                                  SODIUM        55.65109            0.000000
+                            PERCENTLEAFY        0.000000          -0.2413582
+                                 CALORIE        278.4884            0.000000
+                                       9        0.000000            0.000000
+                                      10        0.000000            0.000000
+                                      11       0.8322983            0.000000
+                                      12        0.000000            0.000000
+                                      13       0.9608330E-01        0.000000
+                                      14        0.000000            0.000000
+                                      15        1.152364            0.000000
+                                      16        0.000000            0.000000
+
