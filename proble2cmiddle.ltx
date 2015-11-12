@@ -1,0 +1,34 @@
+!min t + .75l + .5s + .5c + .45ss + 2.15st + .95cp + 2o
+min 21t + 16l + 40s + 41c + 585ss + 120st + 164cp + 884o
+
+st
+	PROTIEN).85t + 1.62l + 2.86s + .93c + 23.4ss + 16st + 9cp >= 15
+	
+	MT2GRAMFAT).33t + .2l + .39s + .24c + 48.7ss + 5st + 2.6cp + 100o >=2
+	LT8GRAMFAT).33t + .2l + .39s + .24c + 48.7ss + 5st + 2.6cp + 100o <=8
+
+	CARBOHYDRAYTES)4.64t + 2.37l + 3.63s + 9.58c + 15ss + 3st + 27cp >=4
+
+	SODIUM)9t + 28l + 65s + 69c + 3.8ss + 120st + 78cp <=200
+
+	PERCENTLEAFY).6s + .6l - .4t - .4c - .4ss - .4st - .4cp - .4o >= 0
+
+	!COST) t + .75l + .5s + .5c + .45ss + 2.15st + .95cp + 2o <=2
+	!CALORIE) 21t + 16l + 40s + 41c + 585ss + 120st + 164cp + 884o <= 249
+
+	COST) t + .75l + .5s + .5c + .45ss + 2.15st + .95cp + 2o <=1.7874775
+	CALORIE) 21t + 16l + 40s + 41c + 585ss + 120st + 164cp + 884o <= 181.477
+
+	COSTis) t + .75l + .5s + .5c + .45ss + 2.15st + .95cp + 2o >=0
+	CALORIEis) 21t + 16l + 40s + 41c + 585ss + 120st + 164cp + 884o >= 0
+	
+	t >= 0
+	l >= 0
+	s >= 0
+	c >= 0
+	ss >= 0
+	st >= 0
+	cp >= 0
+	o >= 0
+
+end

@@ -1,0 +1,51 @@
+  Global optimal solution found.
+  Objective value:                              181.4769
+  Infeasibilities:                              0.000000
+  Total solver iterations:                             5
+  Elapsed runtime seconds:                          0.16
+
+  Model Class:                                        LP
+
+  Total variables:                      8
+  Nonlinear variables:                  0
+  Integer variables:                    0
+
+  Total constraints:                   19
+  Nonlinear constraints:                0
+
+  Total nonzeros:                      93
+  Nonlinear nonzeros:                   0
+
+
+
+                                Variable           Value        Reduced Cost
+                                       T        0.000000            416.6152
+                                       L        0.000000            164.6447
+                                       S       0.5928978            0.000000
+                                       C        0.000000            221.4834
+                                      SS       0.8841125E-01        0.000000
+                                      ST       0.5752957            0.000000
+                                      CP       0.2256397            0.000000
+                                       O        0.000000            3505.501
+
+                                     Row    Slack or Surplus      Dual Price
+                                       1        181.4769           -1.000000
+                                 PROTIEN        0.000000           -71.00365
+                              MT2GRAMFAT        6.000000            0.000000
+                              LT8GRAMFAT        0.000000            17.55584
+                          CARBOHYDRAYTES        7.296547            0.000000
+                                  SODIUM        74.49030            0.000000
+                            PERCENTLEAFY        0.000000           -86.07969
+                                    COST        0.000000            415.7430
+                                 CALORIE       0.1078674E-03        0.000000
+                                  COSTIS        1.787478            0.000000
+                               CALORIEIS        181.4769            0.000000
+                                      12        0.000000            0.000000
+                                      13        0.000000            0.000000
+                                      14       0.5928978            0.000000
+                                      15        0.000000            0.000000
+                                      16       0.8841125E-01        0.000000
+                                      17       0.5752957            0.000000
+                                      18       0.2256397            0.000000
+                                      19        0.000000            0.000000
+
